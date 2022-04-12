@@ -69,6 +69,9 @@ while True:
     bee.display()  
     pipe1.display()
     #Display second pipe
+    pipe2=Pipe(300)
+    pipe2.display()
+    
     screen.blit(images["base"],[groundx,550])
    
     pygame.display.update()
